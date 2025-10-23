@@ -1,10 +1,10 @@
 
-import React, { useState, useEffect } from 'react';
-import { useCountdown } from './hooks/useCountdown';
-import GiftBox from './components/GiftBox';
-import CountdownTimer from './components/CountdownTimer';
-import VoucherDisplay from './components/VoucherDisplay';
-import PrizeDisplay from './components/PrizeDisplay';
+import React, { useState } from 'react';
+import { useCountdown } from './hooks/useCountdown.js';
+import GiftBox from './components/GiftBox.js';
+import CountdownTimer from './components/CountdownTimer.js';
+import VoucherDisplay from './components/VoucherDisplay.js';
+import PrizeDisplay from './components/PrizeDisplay.js';
 
 const App: React.FC = () => {
   // --- Hộp quà 9h sáng ---
